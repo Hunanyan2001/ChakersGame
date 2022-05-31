@@ -1,0 +1,51 @@
+﻿<Window x:Class="NewGameChakers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewGameChakers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600">
+    <Grid x:Name="MainGrid" HorizontalAlignment="Left" Width="400" Height="400" Margin="0,0,0,145">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"  />
+            <ColumnDefinition Width="1*"  />
+            <ColumnDefinition Width="1*"  />
+            <ColumnDefinition Width="1*"  />
+            <ColumnDefinition Width="1*"  />
+            <ColumnDefinition Width="1*"  />
+            <ColumnDefinition Width="1*"  />
+            <ColumnDefinition Width="1*"  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="7" Margin="54,1,-199,0" Grid.RowSpan="8">
+            <Label Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Margin="10,10,0,0"/>
+            <Label Content="2" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+            <Label Content="3" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
+            <Label Content="4" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top"/>
+            <Label Content="5" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top"/>
+            <Label Content="6" HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top"/>
+            <Label Content="7" HorizontalAlignment="Left" Margin="10,307,0,0" VerticalAlignment="Top"/>
+            <Label Content="8" HorizontalAlignment="Left" Margin="10,363,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Grid.Row="7" Grid.ColumnSpan="8" Margin="4,56,0,-56">
+            <Label Content="a" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="28" Margin="10,3,0,0" FontSize="20"/>
+            <Label Content="b" HorizontalAlignment="Left" Margin="63,3,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="c" HorizontalAlignment="Left" Margin="111,3,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="d" HorizontalAlignment="Left" Margin="156,3,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="e" HorizontalAlignment="Left" Margin="215,3,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="f" HorizontalAlignment="Left" Margin="258,3,0,10" FontSize="20"/>
+            <Label Content="g" HorizontalAlignment="Left" Margin="302,1,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="h" HorizontalAlignment="Left" Margin="348,3,0,0" VerticalAlignment="Top" Width="38" FontSize="20"/>
+        </Grid>
+    </Grid>
+</Window>
